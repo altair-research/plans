@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<title>Battery One Privacy</title>
+<style>
+  :root { --bg: #f7f8f6; --fg: #1b2420; --muted: #5a6761; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #121815; --fg: #e4ebe7; --muted: #9aa8a1; color-scheme: dark; } }
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: var(--bg); color: var(--fg);
+         font: 16px/1.6 system-ui, "Malgun Gothic", sans-serif; padding: 0 16px; }
+  p { max-width: 34em; text-align: center; }
+  small { color: var(--muted); }
+</style>
+</head>
+<body>
+<p id="msg">여는 중…</p>
+<script>
+  const DATA = {"iv": "znKE8uyrhe0TY9Wt", "ct": "CLO9Gsofy3KlGXVf_kbe14KgPiiHKC_i2glzZmtifZZVEiGZ3lJsNiDMtaoPpAH8YvPmGhCKAjPcEYWM26mmvxboCxFd7oljT_rIBziJHC7At6Dv3xNv4HBlOlxMvkv1Rfs5G741KBPj3zMlhr99L1JjSglM23GZ7gx29nTQYUsf-qd_hh-enSR22n_texclEWnTgEYXzOJw3s43gfu_h2RdJi90QwFv3ol-Xs3dPa4679NSbju5VqpXNDbfP0x6nNxAoQyHFuBQFlFAwl3JCBKIRomgaU7Cb40Z-wpvdQ7erljBDaqLGfgBvHsSs0TO83s8EOvrjxjab72e060vPghQrfazqwQQoNBKZTcfpAd3mNGmvV_qyqfxFKLI0bZ9rj9_OaEkiN8Qp0qWkMmsUI4ItghKjC5ye2LdeUoTMaCIyaJARqWDN3fr073xF33WLoa7TikkIiHF9xzGOpgyuNyL8peyxdcMpV7douvnYxe5rWHMiiGKMsbNaqP3GtPQGtHSJCrBrI11lSZPtecm2ph8BS0n3rCnaLrTaclf54oIC1CekWI4e_KS7lCRg9-8iLFJTX9PoldR8mcyKU4Hha4dOa7zLNOsxy7uXTbMy8iNJqfeCTzWWB3L_x3RkqRi-u3egUeCinagpFTTBfyHYA7sESSxfrFznt6fThbFHzVLcFmO3lx9-oqdppvex8GojgtCyAJHj50l-HKwV9Ka7IOFlSKHvZip06aeR2T-q5W--KFCw47Oj0_IEBnCLpw-VklAEdz_3mh6AZ83_xG0c7SpZQs4fUzZuYLKl-G8obHysduFYN3rmi9wkXrV4d9LniiQcR-0FG6do43PVZM-PVDtvyp_VMiuJBZrtA_5WEqja2A-S4rpYAL15oIt7oxwZWcPH2Uu_48AgwELyvfnir2wm-siKjkDXW84ojAUtiYYj-aGNO7CmSpQAPu0byBymtvqNsFVwDzli-GdQGWxb32AwwMcR_zLk2jEPOC6neeitTR06TGfHZIIwFo8eEVYIYvEriyP3yCG3dHqPbk2Q4Yjuf-caKTq7C7XPHAC1iZuezhQlO96714LEBrRlPRrOBFwxaXjNlqwm_warDrOq79QnqEbts1zN0VjKFmKQUTXX3jCxXy9_-FG1KAd_WvANFYnh74SCh5kAnVFkKsdMZBfGQ15M-8SCCGJJo3wy_F6ZNXy0nrLxDEy1_372R8APDNI7yOeEUuklHFfti8qdD_cpRkBGaB2DoZAZ5GU6uGaBzbctHr7_nukymszTHp8nYshnioWBX0O6oXgqRZ96cPT-0RbxEPAJn9BoO-uS2s1ROtzm-Hsb11RFcCvC9otC0WVERbEVYWJv-s0vHzr5KoIR4-9ngDxvCrktPDUVBJLrjBY5rCMbJGFaG33Zw_og40WqOuMP8l_3G9oLjZ5SFBMFa5e605911eBnd6d43T45FegV2XRxN7okxMFyLovVG9EM8iVEtbFM0IWub5VP2RZ9QffAUyC-C0fk8o58iIUv6K7EOeuFmlAemKODjEVSuSSLrzf6-Iw6SyPZTmjIYmq1KfD3En0_rkq7FEhd_f0JwA9rHqkefAVeYVaMVEItBYTaiNfzIS43J4TLG9RtOIK2rT-AtvzAJwrD_GN7KsTMODqJfpAAdABCA5ebxpxQlpWH1QQXsYKDMahzNSZxWZZcn3mslUqkhtg8_PEk-m1KC02VCtp1ZfF4nimxHNXiTKGz5t6hVsJxT_vQpW_NXRQ5BLNjg_Loe5IXs-IriXZx49odOoC8a8YTZ9RL7CRS7QVl0YYOLtA5MG1quRTqD6moCIr1qG6v9X68v5eT78HwRvTaGensa3lzPFQ5cojdbtTBEGPnYgsJWZ8yjuLZuvCjZX61qOdpM0Bi7RYluMnel3G_NSsvkMk2aulsgLcMCz96X_6Dh3BIfMmBmEuX8jRmyXZ1Hu2bnZn1hmlpfKsH-ulSIKPSDWAlYH7SuIQLLgWRYYbqDW1t1BZnT2_i_GGVVZDFUMfJx1velgoxS8izZLe_H_znTrVRy1ewS1wUCULXKUU355d-vG--apiI7MxRGKgOVEz71TnGxe_LDih6rfl3zUWyx5wnMoyejINtX2Q_NR5zB-i6DxEbgkI1hgDVZKVhwqRVvc1L24GEsmlbEJHIIunTJlt_rE4Xt1dyyjn1D9cgTmjijEC6Z73Xkg1ZRlWUy4NACzevhUHCrzLY6uxXjEJwWNVSRylYpdlEC8FdTQ8-K68EMZSfbPXogK3Z4syQH58pzs6RW9Fu6W_3P8ubCAq_4TW0C8Sb95qNlxfOP5AHtr1WRCt012ZwDZ4PNVjuy1NfN84SjGlo8LRHrajWH1MI-ON_icYal8j95Lnt7I1r5Tk7ycEBnIIAmDjHzxzOSTPOaofD1Zkqlty-LENV_WP3gC_NYOThJ_dQmmWKebPJuUVbRYGVQTm9onErPr0hA0UNzj5YI5YfCKpiuDCczz2hME_h6pBrSYcDFgCKAGIOGRqdtMNaax8t-WrgIcMM0dieMyYlgvuOrGbfRc8g5jGd3CoL-23XRmQ06CQ7JrTz80qNorqDb5Zm0AqNSDHqbRBG3ErRQbtwLNJ_XbZ7qi12TcoLAi0V1jp2xu65olb8QpCg5AoDS4P1oPjB7SnoU89bcXLjeIZQPbUXWIRU76iup4DnEZsdcTjEn2NS4Gaga-hnl2ylixfENoTeZAIz6957nqVDC7iV-Dnt1GzkLvMDROL3SzZhfvZDICfqIx8D-REZlmlN0jVkQ2-c8ZjW2tkhs8266mkOH6KnjgxPWC7E0zLdZLUS125kOJ-K8q5Gg5AedqbAZRHS6t4K6aiCzssAl-wV82ks4T6D3ZfpEoniOg1uC7Xfmbh6WpOTluLiAYmlbF7Ae-l886zL-9a4hP0Q65nhUY25kZM145gMgEFyD1E3mVF9A9YzI8JiWn3-k-ygqqHrULCOsA6IVyyuRL2ir9gGBANd93lZJqpr4GBTYd1cvVtQ2LdH34DYvvcOU-YrA34SHHoDoLCW9L9fye4eao11bkTJJ45B3eD3a38rV2qIOIfSaWcykoGSEkW1mzgb3Fe1NOjgrTZqxCCWJi91BuHeY8DAXJG7tJ37uQuq5sPS8db4BoJURtD2Lwccex5cG_tfEVlpMfxoLdhCynCJ7e_F3Xl8VBxzS0VQxalyIIQk3femzoo9EF6PKwS4LpgD6ewiH2XZ7DVv_1V4sRFwiBY6_UW4Q7eYpcxgsC42PRID_PAuyesEmL-0vm2SdqGVu-r9K1prS0qJ5g3ErdVEoRWUDcwmWfkgN7Za5BWo7ZC_py35hVkU9k7Ezte2bL7kJ1c59z6-Ua_n9nS2lG3qqBzOsYb9RZUJVAnAceyf-5zBqyLztMsQI_JUBaBrIe2BEJWdkAKz8gbW6tfbneMGJDdROf315vJFyYlma32MCqMYBjIDQlZgi-f25A-hPjLIWyBDWoV6reFTe46hfQ-Pd-ln1i7n-KL3eeazgr72xiKIsMfd6Rca4bJkLd3Ly9LsPl1vBNzOHFMkAKT5jjxbGQ3Vj3lj17E6DftAanX0dkTuggpo4NCAq-w4cTZCX1rdM6ApfxrJZSVHk7aAmR9zGNgw6yY"};
+  const unb64 = s => Uint8Array.from(atob(s.replace(/-/g, "+").replace(/_/g, "/")), c => c.charCodeAt(0));
+  (async () => {
+    const k = new URLSearchParams(location.hash.slice(1)).get("k");
+    const msg = document.getElementById("msg");
+    if (!k) { msg.innerHTML = "이 페이지는 받은 링크로만 열 수 있습니다.<br><small>링크 끝의 #k=… 부분까지 전부 복사했는지 확인하세요.</small>"; return; }
+    try {
+      const key = await crypto.subtle.importKey("raw", unb64(k), "AES-GCM", false, ["decrypt"]);
+      const plain = await crypto.subtle.decrypt({ name: "AES-GCM", iv: unb64(DATA.iv) }, key, unb64(DATA.ct));
+      // document.open() is ignored while the parser is still running, so wait until it finishes
+      if (document.readyState === "loading") await new Promise(r => document.addEventListener("DOMContentLoaded", r));
+      document.open(); document.write(new TextDecoder().decode(plain)); document.close();
+    } catch (e) {
+      msg.innerHTML = "링크가 맞지 않습니다.<br><small>예전 링크이거나 일부가 잘렸을 수 있습니다.</small>";
+    }
+  })();
+</script>
+</body>
+</html>

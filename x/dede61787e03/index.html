@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<title>PeachPlay 화면 새 옷 · 로컬 검토</title>
+<style>
+  :root { --bg: #f7f8f6; --fg: #1b2420; --muted: #5a6761; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #121815; --fg: #e4ebe7; --muted: #9aa8a1; color-scheme: dark; } }
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: var(--bg); color: var(--fg);
+         font: 16px/1.6 system-ui, "Malgun Gothic", sans-serif; padding: 0 16px; }
+  p { max-width: 34em; text-align: center; }
+  small { color: var(--muted); }
+</style>
+</head>
+<body>
+<p id="msg">여는 중…</p>
+<script>
+  const DATA = {"iv": "3v2HnisyFV8yi02e", "ct": "7U87H-bJnMf9vHdOAec2BAAlIbJN0gOYcUFHyjRZeTyYBBDq2Mvfl9DdVgt6RHb4MvgZKCc6bpiPtfnBQoFKt6DCZJHJl7R5dRowTPgVq2imaxvM1bJ_wXRp43XShgIm6WmP4zMWTB3vM2SEojx8Sk5FOJ1oZ95nTb8f2XVmYxhEVFDffTIYHrYzNG8Z8FWbDIjLFNNZqCLuceFY7GJJFaVfFFPAbKU3EZDJ95TzUq9nuvx4Z8e2ClZWBsiyekfQ1sVaWaeBZWdx3624Qwx1qqlQ3TqPAbS7_najg9m5C8en3ghz8LwGO2GFcO1qVyB8gLzk3ndhyQkddVNxdPmz34ISoes3JIkagHvfk6eW80764JAAMIuggTqXLSVVBkgDoiuExa23zxBg5rbjjk9Mev5EWG-kRl9ILHPe8UcK4ln6NoVMJf0R-c-zDU-zvNkFPmhdAfGwBmQGglQztudWxehcM9utOKMF0puLE6nZAklJMSY5PcqTVPVMPxyXhUm4ZMEDXSSTWvLU1vjVWvAgCZLzz034Yw2VfrS3VpFk-srSKjdJtzhqSMSuR2j5TyGqJqMEKS1lltN6wwp6WQ0-7k_w2YvwpTUuu3o1G4oRZxc_UU1V_V_kp3l4CagE9Z8viIp3T1UsWCIaS36v2n-7Oe34ujIKc2CQSuFnQa_6Y9wTrz4QbRmacY0FZ4i363uH8DprLMqTLZgrQ-qPrH4iQ4Td4lEMaMxFW0JvvQZb6XO7K2a14Q6TJMg8nHWqVzop30qXjM79wHgHAAWDD75q8SHV63w82Iz5DBK06TyA9Z74isUYfLjaaL4grsSxpiQVtzU5ZhsfFx_1_wS4RHKuUCCx2o6HEoHauSzsygYeyxHH-ord3gXiqEEeadNuLGeLkYYXsOLX5R2wRXrx2WxYcwddSDsyG_tqRa35ppv_wXKY9RRnB52R9rMTas9_DEWRBIMq3ekZBJvOtrAc8JFKAGsDvGg7ov4tAvfVgsPr_pPnF2oGg3bdCwt_vwJjPuSA0rWozAjfFlGDrOigtLUPML9GdvKbz25bkUGnO3ExCBafmqubaYxdS4IxTi9B77Fi35PbWktvz6vHz1-_4QR7tdrCvr34JDGOcnoByz71BpeXLK5V74xOlf22Stj0QcIqumgN9G3gYAK9-EahDuyUb5PdBpboP5pA8i5ZwSes3lQdvMpEGtS3lBBC5PhNniB4tdXX3whsdBoiucU8m8XapkZ2YANnMwNQEgY9dQ3YWB5RtQYq5Lc6fIXZZTugjeomiNK7Fm-LjhxqO00gvrawetl8bzvht1dktFF1UQR57ibeZvH4TUsDA7B0bObBMGE5s1t-IgtDkicpBexnfzCQyXcCrs_t80saOK0VMm9i9Yekwxjt2KETpp31y1D6iwnuCHdpo3CUT4DHCCObTmIpTpZqETAamqXAdeu8twwVBTm0Ms7U_MgJEkkyo7ww-iJtsiT02u2Qx9FsnGfmzW49aCfLx9OS9QLwv0tHzXq2Eh1iqjnhFYT1gcf2PyuCMLNnyRDOKb1chytB8BqoAbQnRNAV4gKJcecuoC1yc4tc7BYWsKyblNoA4HWHc-bU61wdOVoO0FX1TMb_wewajADzcQz8YsQ8Gbdk8EFcyEfDm2Tt3pQGkWXr1SX07gXwz7JIV-qDAaI49OML77mdZPCTVjQA1sCdzmY4SplOTHSQ7hLiIsapJkHdHCyPe65GiF1kvZY-eyxLwdrBdbOaGaCpwV3ergeocM55GRsW25yyGuhD68lNSHl0IUm42brRvOSeDZ1phznhdw8OvWk4vSm-bgboeE1nr2IEDojNTCHsT665ge-X0iiS39a7a2Z-6KKQN2tUkdPD2oOT-K27PngK8lodKx9zH-iNASeZlg7pJIhBCWM9uLkpofcBw5izfEk2sLE5LIyssxJueqZcZIIFGmELP02JXZHRZHHrD-M9fFZuiwhD5cVGJyHRkUm7VYyAWBWbnrD_sjns13iJlytxUpYV9tjC5XENX4CX51Ha7_GvkXQLkl3H9LZcSsSK1-JaKkLtf2yOVYU6xV5RfJ9r5ZGGnl3VhReOZ-JIwxNXBxsIdBFLkeouisnnfpsHXwIfyWvxFxMULsgG4_WMXqOneY7EqsMDnrs7uPkUYEF8h2fYhMggwOY-XGWspPhTkJkIJEvooYRGPjxQ2ye9KS0lx3VtKjMF1j2W7SAicq2GDeDkiThjNbf0CB08q_RTzT652o9dBaKwn197qzyWOOtDw8Pr0vq-E77QRC6q2Kx-ANB8kyBUieOMKawSXxGVuiF_aAD2knw9-RzR-c96VxEU1WKe2zQRujXIM4LNEulzYm0LTYl1xBJNRay_N9cJOQp0e4Fn02JtrNh4UhWMaZIam1W1a2PCG_oooQsLd9c1jBw9V1WaTcg2V1GhDxX2OEwQtlpNfxA_tSpshOcYqKJEArCmEbP-CyxihRBKMXdPAVZBPwT4OHH5Ej7nR6WOF2N-Ktp4GqgUP4Y-ul7ftp8ayANEBXvlUjUQQ_87cGFzfghyOqXv7_dkmy2V7BlAdmRLnK-WY3Dtu8sDH63Ts3JFwqssqg1PRqvdVfUxHXN3FiB48k9p_J5RuYBS9D7XpeXtUCUKp0SXGaWMSuHQllwWTbYtgTDpV_3yNCUUsRHZ60Ml4UST62IKtBk9vSMab_704v0uBAoXTh1-La6zYv1e_jNyGHWeH_VwyBzao7MYt14RmFLv7uoKei5VjPSIVKLpmz-NRnlet-YNBVlReu5sNDQhLO8ZeQvZZt3ocskQre3nt_LHs0PydtH-ku-bXCIpo9GR7jqfGV5UMno3W_pMd522sO_DKdbylX81dpnr8sal-F5nzuT3cg0bTTlxrLqJs9tBzOPFZ9Lw9klDaYVJff2ZagVFObPmDoKiSBBg97NeoYHOkcbDZD1-nLfpmUlkNegkAqp0IGahJQfXaoLpP85YL3tXR_vl179x0rr398GrA43KynPb3sutQHQiZsA1ifqZ4XhOtifNn1CAwXtGCGA7--gYb_GYndxJUZ-JVOtm7PHKGyxVaOKhVVFge7Llxrc-J0Zlo3qb5vg1MUKxYdxRPxdATnPq2GS1IOhkQrPisyKzx59TFHHoM6BqCd9vTmAERU8mSVsWtTt-I37iaH0HM3nVr4N7A9Qye4xxP1EI0uDZzWUzRvKCDtiqvHdTXQyht6US6WUm8KtNEAHQwzRBfI0t9dZVE3KDgaTATxd-AYZMjIkmRCP87kf-Moa4VGoKT8eKVoq1SdwcqrNjE24NzGJe0RQ61thKmca00yOhGmLcdUzdPorbVup-ypysW8Nvb-2kk7QOyrtIbzjpM3g6RQrwBX1CWUFhA_HFmOJDlXLuB82Sf0p8sz0mtaPnNRHjYHvl8tSzK4iqGLTZd9kjqA4Bj-KEdIOLtdY-L9pG9e5j6PmFDTn0p-XcaNJwXkMcfv4F0Q290X1EumwJwU4WG_dlAmln6E9rYI12xHTuA-efR7dAROa5yvlz4oTWBNUk-TgT5SWibKQR7Pq9UtJWlJK7o6xca-EyB7uwfemHsgqq0HRPq2sQeLpNs011RQnEey5F2OQgEoiVbS8KCtLWBeNZtx5uf2Pf1P4xgpJ0puXMQjE2CRwTq_u6WOiNcLC15efCSCaDbS7775u3L9h01DUnoUm0FzyEeSmWC3RmU7TfM05LTTapxlY1NwpA0b0pe17DPHZ3MMJ6OO1-oEDcctNU2dhAZUbWMaWAHTOlCm7QiK8nXHf-i4zGjpfSh4egp0341x9kqLCfsauvsaXi0MZVGyc3oafpBh3-DAu-b-zhB2y5RDL38YMVd3uJa3kIpEdqsic61MNzw60S3GGMpmrDVbTVZ3gJVzE3QoeYFCmKOiC4UX4K_UbO838_eyr3wuE-w6nUtsejdXxTbhS4rhGpkeZke7H1ZxvwY2TITGDniH1Vacfa_GUp8mVPFSuwrAg2hDlI9i0y2mLwSyHfuokYBFC0O7ooWYwGlaMKvCW7EWY_VQhOTbGzqd1eU5itdU16cvZ9-6T2epoCkXi4wFJL9RyXuAsV2bJ5YHDMO1bJ5KagrSk2n0E8Wqjp7vZZZrgXfubeE8UG8KBCxta1JxUyDpkFxNu90tKSacJyAnsHjQ"};
+  const unb64 = s => Uint8Array.from(atob(s.replace(/-/g, "+").replace(/_/g, "/")), c => c.charCodeAt(0));
+  (async () => {
+    const k = new URLSearchParams(location.hash.slice(1)).get("k");
+    const msg = document.getElementById("msg");
+    if (!k) { msg.innerHTML = "이 페이지는 받은 링크로만 열 수 있습니다.<br><small>링크 끝의 #k=… 부분까지 전부 복사했는지 확인하세요.</small>"; return; }
+    try {
+      const key = await crypto.subtle.importKey("raw", unb64(k), "AES-GCM", false, ["decrypt"]);
+      const plain = await crypto.subtle.decrypt({ name: "AES-GCM", iv: unb64(DATA.iv) }, key, unb64(DATA.ct));
+      // document.open() is ignored while the parser is still running, so wait until it finishes
+      if (document.readyState === "loading") await new Promise(r => document.addEventListener("DOMContentLoaded", r));
+      document.open(); document.write(new TextDecoder().decode(plain)); document.close();
+    } catch (e) {
+      msg.innerHTML = "링크가 맞지 않습니다.<br><small>예전 링크이거나 일부가 잘렸을 수 있습니다.</small>";
+    }
+  })();
+</script>
+</body>
+</html>
